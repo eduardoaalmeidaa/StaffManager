@@ -1,0 +1,8 @@
+.mat-raised-button {
+  margin: 8px 8px 0 0;
+  background-color: rgba(4, 0, 255, 0.507);
+}
+
+.mat-raised-button:hover {
+  background-color: rgb(233, 250, 0);
+}
