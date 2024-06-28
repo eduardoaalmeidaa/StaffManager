@@ -85,34 +85,6 @@ ng serve
 ### 4. Activate/Inactivate Employee: Toggle the "Active" status of an employee.
 ### 5. Change Shift: Update the shift details of an employee.
 
-## Folder Structure
-``
-employee-management-system/
-│
-├── backend/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Data/
-│   ├── Migrations/
-│   ├── appsettings.json
-│   └── Program.cs
-│
-├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/
-│   │   │   ├── services/
-│   │   │   └── models/
-│   │   ├── assets/
-│   │   ├── environments/
-│   │   ├── index.html
-│   │   ├── styles.css
-│   │   └── main.ts
-│   └── angular.json
-│
-└── README.md
-``
-
 ## Contributing
 ### 1. Fork the repository.
 ### 2. Create a new branch.
@@ -120,23 +92,7 @@ employee-management-system/
 ### 4. Push to your branch.
 ### 5. Create a new Pull Request.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Imagens versão WEB
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/9c871e1f-8dd0-4278-b037-96775c42a03a)
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/c1920c44-082f-4bb7-9ecb-3eb72b3478d6)
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/60f7b381-623e-42d3-b7cc-b2a808efc3f4)
