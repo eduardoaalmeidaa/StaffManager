@@ -94,13 +94,13 @@ ng serve
 ### 5. Create a new Pull Request.
 
 # WEB version images
-![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/9c871e1f-8dd0-4278-b037-96775c42a03a)
+![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/84290cb7-6d1f-46b3-8334-23d962f0f25f)
 -
-![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/c1920c44-082f-4bb7-9ecb-3eb72b3478d6)
+![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/76c7f0b4-27c4-4f47-bd52-8801b58c4a59)
 -
-![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/60f7b381-623e-42d3-b7cc-b2a808efc3f4)
+![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/cd49eea0-ecfa-47e9-8e21-8a9a3aba4a2e)
 -
-![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/b4a6bbb6-0308-41a0-aee9-33f6860b2a44)
+![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/3e0d5f08-abc0-47f3-bffa-17b3a8ee7318)
 -
-![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/64c1595e-adbb-4618-a0f8-cf982de32580)
+![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/ace93380-5c4f-4025-8c47-684bba0e12ae)
 -
