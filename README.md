@@ -79,7 +79,7 @@ ng serve
 
 ### 5. Open your browser and navigate to http://localhost:4200.
 ## Usage
-### 1. Add Employee: Fill out the form and click the "Add Employee" button.
+### 1. Add Employee: Fill out the form and click the "Register new employee" button.
 ### 2. Edit Employee: Click the "Edit" button next to the employee you want to edit, update the details, and save.
 ### 3. Delete Employee: Click the "Delete" button next to the employee you want to remove.
 ### 4. Activate/Inactivate Employee: Toggle the "Active" status of an employee.
@@ -92,9 +92,14 @@ ng serve
 ### 4. Push to your branch.
 ### 5. Create a new Pull Request.
 
-# Imagens versão WEB
+# WEB version images
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/9c871e1f-8dd0-4278-b037-96775c42a03a)
+-
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/c1920c44-082f-4bb7-9ecb-3eb72b3478d6)
+-
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/60f7b381-623e-42d3-b7cc-b2a808efc3f4)
+-
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/b4a6bbb6-0308-41a0-aee9-33f6860b2a44)
+-
 ![image](https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios/assets/89856553/64c1595e-adbb-4618-a0f8-cf982de32580)
+-
