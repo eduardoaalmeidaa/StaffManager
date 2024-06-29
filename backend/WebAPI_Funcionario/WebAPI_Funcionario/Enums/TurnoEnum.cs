@@ -7,6 +7,7 @@ namespace WebAPI_Funcionario.Enums
     {
         Manha,
         Tarde,
-        Noite
+        Noite,
+        Integral
     }
 }

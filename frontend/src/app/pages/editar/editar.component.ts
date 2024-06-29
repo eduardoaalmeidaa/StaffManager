@@ -9,8 +9,8 @@ import { FuncionarioService } from 'src/app/services/funcionario-service.service
   styleUrls: ['./editar.component.css'],
 })
 export class EditarComponent implements OnInit {
-  btnAcao = 'Editar';
-  btnTitulo = 'Editar Funcionário';
+  btnAcao = 'To edit';
+  btnTitulo = 'Edit Employee';
   funcionario!: Funcionario;
 
   constructor(

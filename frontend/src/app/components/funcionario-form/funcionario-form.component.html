@@ -6,14 +6,14 @@
 
     <div class="input-box">
       <mat-form-field>
-        <mat-label>Nome:</mat-label>
+        <mat-label>Name:</mat-label>
         <input
           matInput
           id="nome"
           type="text"
           class="form-control text-dark"
           formControlName="nome"
-          placeholder="Insira o nome!"
+          placeholder="Enter the name!"
           required
         />
       </mat-form-field>
@@ -21,14 +21,14 @@
 
     <div class="input-box">
       <mat-form-field>
-        <mat-label>Sobrenome:</mat-label>
+        <mat-label>Surname:</mat-label>
         <input
           matInput
           id="sobrenome"
           type="text"
           class="form-control text-dark"
           formControlName="sobrenome"
-          placeholder="Insira o sobrenome!"
+          placeholder="Insert last name!"
           required
         />
       </mat-form-field>
@@ -36,39 +36,40 @@
 
     <div class="input-box">
       <mat-form-field>
-        <mat-label>Departamento:</mat-label>
+        <mat-label>Department:</mat-label>
         <mat-select
           id="departamento"
           class="form-select"
           formControlName="departamento"
           required
         >
-          <mat-option value="Administrativo">Administrativo</mat-option>
-          <mat-option value="Comercial">Comercial</mat-option>
-          <mat-option value="Compras">Compras</mat-option>
-          <mat-option value="Contabilidade">Contabilidade</mat-option>
-          <mat-option value="Financeiro">Financeiro</mat-option>
-          <mat-option value="Juridico">Jurídico</mat-option>
-          <mat-option value="Logistica">Logística</mat-option>
+          <mat-option value="Administrativo">Administrative</mat-option>
+          <mat-option value="Comercial">Commercial</mat-option>
+          <mat-option value="Compras">Shopping</mat-option>
+          <mat-option value="Contabilidade">Accounting</mat-option>
+          <mat-option value="Financeiro">Financial</mat-option>
+          <mat-option value="Juridico">Legal</mat-option>
+          <mat-option value="Logistica">Logistics</mat-option>
           <mat-option value="Marketing">Marketing</mat-option>
-          <mat-option value="RH">RH</mat-option>
-          <mat-option value="Suporte">Suporte</mat-option>
+          <mat-option value="RH">HR</mat-option>
+          <mat-option value="Suporte">Support</mat-option>
           <mat-option value="TI">TI</mat-option>
         </mat-select>
       </mat-form-field>
     </div>
 
     <mat-form-field>
-      <mat-label>Turno</mat-label>
+      <mat-label>Shift</mat-label>
       <mat-select
         id="turno"
         class="form-select"
         formControlName="turno"
         required
       >
-        <mat-option value="Manha">Manhã</mat-option>
-        <mat-option value="Tarde">Tarde</mat-option>
-        <mat-option value="Noite">Noite</mat-option>
+        <mat-option value="Manha">Morning</mat-option>
+        <mat-option value="Tarde">Afternoon</mat-option>
+        <mat-option value="Noite">Night</mat-option>
+        <mat-option value="Integral">Full</mat-option>
       </mat-select>
     </mat-form-field>
 
@@ -83,7 +84,7 @@
         {{ btnAcao }}
       </button>
       <button class="btn btn-primary w-50" routerLink="" mat-raised-button>
-        Voltar
+        Back
       </button>
     </div>
   </form>

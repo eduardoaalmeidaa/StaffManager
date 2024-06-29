@@ -1,11 +1,11 @@
 <div *ngIf="funcionario">
-  <h1 mat-dialog-title>Deseja confirmar a exclusão?</h1>
+  <h1 mat-dialog-title>Confirm Deletion?</h1>
 
   <div mat-dialog-content>
     <p style="font: bold">
-      Funcionário: {{ funcionario.nome }} {{ funcionario.sobrenome }}
+      Employee: {{ funcionario.nome }} {{ funcionario.sobrenome }}
     </p>
-    <p style="font-style: bold">Departamento: {{ funcionario.departamento }}</p>
+    <p style="font-style: bold">Department: {{ funcionario.departamento }}</p>
   </div>
 
   <div
@@ -17,9 +17,9 @@
       style="background-color: rgba(250, 30, 30)"
       (click)="excluir()"
     >
-      Confirmar
+      Confirm
     </button>
 
-    <button mat-raised-button mat-dialog-close="">Voltar</button>
+    <button mat-raised-button mat-dialog-close="">Back</button>
   </div>
 </div>

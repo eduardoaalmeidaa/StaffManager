@@ -7,16 +7,16 @@
       onmouseover="this.style.backgroundColor='rgb(50, 155, 200)'"
       onmouseout="this.style.backgroundColor='rgb(11, 155, 165)'"
     >
-      Cadastrar novo fucionário
+      Register new employee
     </button>
 
     <div class="input-box">
       <mat-form-field>
-        <mat-label>Procurar:</mat-label>
+        <mat-label>Search:</mat-label>
         <input
           matInput
           type="text"
-          placeholder="Qual registro está buscando?"
+          placeholder="Which record are you looking for?"
           (input)="search($event)"
         />
       </mat-form-field>
@@ -45,19 +45,19 @@
     </ng-container>
 
     <ng-container matColumnDef="Nome">
-      <th mat-header-cell *matHeaderCellDef>Nome</th>
+      <th mat-header-cell *matHeaderCellDef>Name</th>
       <td mat-cell *matCellDef="let funcionario">{{ funcionario.nome }}</td>
     </ng-container>
 
     <ng-container matColumnDef="Sobrenome">
-      <th mat-header-cell *matHeaderCellDef>Sobrenome</th>
+      <th mat-header-cell *matHeaderCellDef>Surname</th>
       <td mat-cell *matCellDef="let funcionario">
         {{ funcionario.sobrenome }}
       </td>
     </ng-container>
 
     <ng-container matColumnDef="Departamento">
-      <th mat-header-cell *matHeaderCellDef>Departamento</th>
+      <th mat-header-cell *matHeaderCellDef>Department</th>
       <td mat-cell *matCellDef="let funcionario">
         {{ funcionario.departamento }}
       </td>
@@ -72,7 +72,7 @@
           style="background-color: rgba(197, 149, 15, 0.5)"
           onmouseover="this.style.backgroundColor='rgb(300, 149, 15)'"
           onmouseout="this.style.backgroundColor='rgb(197, 149, 15)'"
-          >Editar</a
+          >To edit</a
         >
         <a
           routerLink="detalhes/{{ funcionario.id }}"
@@ -80,7 +80,7 @@
           style="background-color: rgba(180, 180, 180, 0.514)"
           onmouseover="this.style.backgroundColor='rgb(210, 192, 192)'"
           onmouseout="this.style.backgroundColor='rgb(180, 180, 180)'"
-          >Detalhes</a
+          >Details</a
         >
       </td>
     </ng-container>
@@ -95,7 +95,7 @@
             style="background-color: rgba(153, 12, 12, 0.507)"
             onmouseover="this.style.backgroundColor='rgb(250, 30, 30)'"
             onmouseout="this.style.backgroundColor='rgb(153, 12, 12)'"
-            >Excluir</a
+            >Delete</a
           >
         </mat-dialog-actions>
       </td>

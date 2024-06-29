@@ -1,13 +1,13 @@
 <mat-card>
   <div>
-    <h1 class="text-light">Detalhes Funcionário</h1>
+    <h1 class="text-light">Employee Details</h1>
   </div>
 
   <div *ngIf="funcionario">
     <form>
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Nome:</mat-label>
+          <mat-label>Name:</mat-label>
           <input
             matInput
             type="text"
@@ -20,7 +20,7 @@
 
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Sobrenome:</mat-label>
+          <mat-label>Surname:</mat-label>
           <input
             matInput
             type="text"
@@ -33,7 +33,7 @@
 
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Departamento:</mat-label>
+          <mat-label>Department:</mat-label>
           <input
             matInput
             type="text"
@@ -47,7 +47,7 @@
 
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Turno:</mat-label>
+          <mat-label>Shift:</mat-label>
           <input
             matInput
             type="text"
@@ -62,7 +62,7 @@
 
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Situação:</mat-label>
+          <mat-label>Situation:</mat-label>
           <input
             matInput
             type="text"
@@ -77,7 +77,7 @@
 
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Data de Criação:</mat-label>
+          <mat-label>Creation Date:</mat-label>
           <input
             matInput
             type="text"
@@ -92,7 +92,7 @@
 
       <div class="input-box">
         <mat-form-field>
-          <mat-label>Data de Alteração:</mat-label>
+          <mat-label>Change Date:</mat-label>
           <input
             matInput
             type="text"
@@ -110,9 +110,9 @@
           (click)="InativaFuncionario()"
           mat-raised-button
           style="background-color: rgba(250, 30, 30)"
-          >Inativar Usuário</a
+          >Inactivate User</a
         >
-        <a routerLink="" mat-raised-button>Voltar</a>
+        <a routerLink="" mat-raised-button>Back</a>
       </div>
     </form>
   </div>

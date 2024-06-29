@@ -10,8 +10,8 @@ import { FuncionarioService } from 'src/app/services/funcionario-service.service
   styleUrls: ['./cadastro.component.css'],
 })
 export class CadastroComponent implements OnInit {
-  btnAcao = 'Cadastrar';
-  btnTitulo = 'Cadastrar Funcionário';
+  btnAcao = 'Register';
+  btnTitulo = 'Register Employee';
 
   constructor(
     private funcionarioService: FuncionarioService,
