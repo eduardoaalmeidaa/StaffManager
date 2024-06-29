@@ -31,18 +31,19 @@
 ## Installation
 ### Backend
 ### 1. Clone the repository:
-`` git clone https://github.com/yourusername/employee-management-system.git
-cd employee-management-system/backend
+`` https://github.com/eduardoaalmeidaa/Angular-CRUD-Funcionarios.git
 ``
 ### 2. Restore the .NET dependencies:
 ``
+cd FuncionariosCRUD_Angular.NET\backend\WebAPI_Funcionario\WebAPI_Funcionario --
 dotnet restore
 ``
 
 ### 3. Update the database connection string in appsettings.json:
 ``
-  "DefaultConnection": "Server=your_server_name;Database=EmployeeDB;User Id=your_username;Password=your_password;"
+"DefaultConnection": "Data Source=your_data_source_name\\SQLEXPRESS;Database=Funcionario;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False"
 ``
+
 ### 4. Apply the migrations to create the database:
 ``
 dotnet ef database update
@@ -68,7 +69,7 @@ npm install
 ``
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:5000/api'
+  apiUrl: 'http://localhost:7016/api'
 };
 ``
 
